@@ -15,7 +15,6 @@
 		9C9962AF18722BA000CCE169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9962AE18722BA000CCE169 /* AppDelegate.m */; };
 		9C9962B218722BA000CCE169 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9962B018722BA000CCE169 /* Main_iPhone.storyboard */; };
 		9C9962B518722BA000CCE169 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C9962B318722BA000CCE169 /* Main_iPad.storyboard */; };
-		9C9962B818722BA000CCE169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9962B718722BA000CCE169 /* ViewController.m */; };
 		9C9962BA18722BA000CCE169 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C9962B918722BA000CCE169 /* Images.xcassets */; };
 		9C9962C118722BA000CCE169 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9962C018722BA000CCE169 /* XCTest.framework */; };
 		9C9962C218722BA000CCE169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C99629E18722B9F00CCE169 /* Foundation.framework */; };
@@ -47,8 +46,6 @@
 		9C9962AE18722BA000CCE169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9C9962B118722BA000CCE169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		9C9962B418722BA000CCE169 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9C9962B618722BA000CCE169 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C9962B718722BA000CCE169 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9C9962B918722BA000CCE169 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9C9962BF18722BA000CCE169 /* oficialTabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oficialTabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9962C018722BA000CCE169 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,8 +115,6 @@
 				9C9962AE18722BA000CCE169 /* AppDelegate.m */,
 				9C9962B018722BA000CCE169 /* Main_iPhone.storyboard */,
 				9C9962B318722BA000CCE169 /* Main_iPad.storyboard */,
-				9C9962B618722BA000CCE169 /* ViewController.h */,
-				9C9962B718722BA000CCE169 /* ViewController.m */,
 				9C9962B918722BA000CCE169 /* Images.xcassets */,
 				9C9962A518722BA000CCE169 /* Supporting Files */,
 			);
@@ -253,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C9962B818722BA000CCE169 /* ViewController.m in Sources */,
 				9C9962AF18722BA000CCE169 /* AppDelegate.m in Sources */,
 				9C9962AB18722BA000CCE169 /* main.m in Sources */,
 			);
@@ -474,6 +468,7 @@
 				9C9962D218722BA000CCE169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C9962D318722BA000CCE169 /* Build configuration list for PBXNativeTarget "oficialTabBarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +477,7 @@
 				9C9962D518722BA000CCE169 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
