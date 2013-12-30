@@ -10,4 +10,7 @@
 
 @interface item3ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *msg;
+
+
 @end
