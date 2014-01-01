@@ -75,8 +75,6 @@
     // Configure the cell...
     cell.textLabel.text=[self.linhas objectAtIndex:indexPath.row];
     
-    NSLog(@"returning cell");
-    
     return cell;
 
 }
